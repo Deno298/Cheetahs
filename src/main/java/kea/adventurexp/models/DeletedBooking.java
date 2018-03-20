@@ -1,6 +1,5 @@
 package kea.adventurexp.models;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -9,7 +8,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 @Entity
-public class Booking {
+public class DeletedBooking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
